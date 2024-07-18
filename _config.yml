@@ -1,10 +1,28 @@
-title: IT Club Lomza
-description: Klub Informatyczny Akademi Łomżyńskiej
-theme: just-the-docs
-cokor_scheme: dark
-url: https://just-the-docs.github.io
-favicon_ico: "/1IT-club-Lomza.ico"
-#logo: "/assets/images/just-the-docs.png"
+# Dependencies
+#markdown:         kramdown powodowało błędy
+highlighter:      pygments
 
-# aux_links:
-#   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Permalinks
+permalink:        pretty
+
+
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          ""
+
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+plugins:            [jekyll-paginate]
+paginate:            5
+paginate_path:       "page:num"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
